@@ -1,0 +1,7 @@
+<p>parent works!</p>
+<div>
+  <h1>{{message}}</h1>
+</div>
+
+<app-child (childEvent)="message=$event"
+  [parentData]="name"></app-child>
